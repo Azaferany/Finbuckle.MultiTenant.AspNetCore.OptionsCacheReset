@@ -1,4 +1,4 @@
-#This is helper For Auto Invalidation Of IOptions<> and IOptionsMonitorOption<> cache during request
+# This is helper For Auto Invalidation Of IOptions<> and IOptionsMonitorOption<> cache during request
 
 ## how Work?
 this Helper Track Tenant Version during request and if Version of Option in the cache is not equal to tenant resolve by `app.UseMultiTenant()` will clear cached options of the current Tenant  
